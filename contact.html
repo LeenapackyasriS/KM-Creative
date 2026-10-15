@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | KM Creative Tailor & Academy</title>
+  <meta name="description" content="Contact KM Creative Tailor & Academy, Rajapalayam for stitching orders, course enquiries, custom designs and aari work details.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Playfair+Display:wght@600;700;800&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="logo" aria-label="KM Creative Tailor & Academy">
+        <img src="images/logo.png" alt="KM Creative Tailor & Academy">
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="index.html#about">About</a>
+        <a href="services.html">Services</a>
+        <a href="lehenga.html">Lehenga</a>
+        <a href="academy.html">Academy</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="#contactForm" class="btn btn-primary nav-mobile-cta">Enquire Now <i class="fa-solid fa-arrow-right"></i></a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#contactForm" class="btn btn-primary btn-sm nav-desktop-cta">Enquire Now <i class="fa-solid fa-arrow-right"></i></a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <se class="ct-main">
+
+    <!-- ============ PAGE HERO ============ -->
+    <section class="ct-hero">
+      <div class="container ct-hero-inner">
+        <div class="ct-hero-text">
+          <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="index.html">Home</a> <i class="fa-solid fa-chevron-right"></i> <span>Contact</span>
+          </nav>
+          <h1>Get In <span>Touch</span> <i class="fa-regular fa-heart ct-heart"></i></h1>
+          <h2>We'd Love to Hear From You</h2>
+          <p class="lead">
+            For stitching orders, course enquiries, custom designs or any other information,
+            feel free to contact us. We are always here to help you with your tailoring and
+            training needs.
+          </p>
+
+          <div class="ct-chips">
+            <div class="chip"><i class="fa-solid fa-headset"></i><span>Quick<br>Response</span></div>
+            <div class="chip"><i class="fa-solid fa-hand-holding-heart"></i><span>Friendly<br>Support</span></div>
+            <div class="chip"><i class="fa-solid fa-user-check"></i><span>Personalized<br>Guidance</span></div>
+            <div class="chip"><i class="fa-solid fa-handshake"></i><span>Your Trusted<br>Partner</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="ct-hero-img">
+        <img src="images/contact/contact-hero.png" alt="KM Creative studio with a pink blouse on a dress form and a sewing machine">
+      </div>
+    </section>
+
+    <!-- ============ INFO CARDS ============ -->
+     <section class="ct-info">
+    <div class="ct-info-grid">
+
+        <article class="ct-card reveal">
+            <span class="ct-icon"><i class="fa-solid fa-phone"></i></span>
+            <h3>Call / WhatsApp</h3>
+            <ul>
+            <li><i class="fa-regular fa-heart"></i><a href="tel:+919876543210">+91 98765 43210</a></li>
+            <li><i class="fa-regular fa-heart ghost"></i><a href="tel:+918765432109">+91 87654 32109</a></li>
+            </ul>
+        </article>
+
+        <article class="ct-card reveal">
+            <span class="ct-icon"><i class="fa-solid fa-envelope"></i></span>
+            <h3>Email Us</h3>
+            <ul>
+            <li><i class="fa-regular fa-heart"></i><a href="mailto:kmcreative@gmail.com">kmcreative@gmail.com</a></li>
+            <li><i class="fa-regular fa-heart ghost"></i><a href="mailto:info@kmcreative.com">info@kmcreative.com</a></li>
+            </ul>
+        </article>
+
+        <article class="ct-card reveal">
+            <span class="ct-icon"><i class="fa-solid fa-location-dot"></i></span>
+            <h3>Our Location</h3>
+            <ul>
+            <li><i class="fa-solid fa-location-dot"></i><span>123, Main Road,<br>Near Bus Stand,<br>Rajapalayam – 626 117</span></li>
+            </ul>
+        </article>
+
+        <article class="ct-card reveal">
+            <span class="ct-icon"><i class="fa-regular fa-clock"></i></span>
+            <h3>Working Hours</h3>
+            <ul>
+            <li><i class="fa-regular fa-heart"></i><span>Mon - Sat : 9:00 AM – 7:00 PM</span></li>
+            <li><i class="fa-regular fa-heart ghost"></i><span>Sunday : 10:00 AM – 4:00 PM<br><b>(By Appointment)</b></span></li>
+            </ul>
+        </article>
+
+    </div>
+    </section>
+
+    <!-- ============ FORM + SIDE PANEL ============ -->
+    <section class="ct-form-sec">
+      <div class="container ct-split">
+
+        <div class="ct-form-card reveal" id="contactForm">
+          <h2>Send Us a <span>Message</span> <i class="fa-regular fa-heart"></i></h2>
+          <p class="form-sub">Fill out the form below and we will get back to you soon.</p>
+
+          <form id="enquiryForm" novalidate>
+            <div class="form-grid">
+              <div class="field">
+                <i class="fa-regular fa-user"></i>
+                <input type="text" id="cfName" name="name" placeholder="Your Name *" autocomplete="name" aria-label="Your name" required>
+                <small class="field-error" data-for="cfName"></small>
+              </div>
+
+              <div class="field">
+                <i class="fa-solid fa-phone"></i>
+                <input type="tel" id="cfPhone" name="phone" placeholder="Phone Number *" autocomplete="tel" inputmode="tel" aria-label="Phone number" required>
+                <small class="field-error" data-for="cfPhone"></small>
+              </div>
+
+              <div class="field">
+                <i class="fa-regular fa-envelope"></i>
+                <input type="email" id="cfEmail" name="email" placeholder="Email Address" autocomplete="email" aria-label="Email address">
+                <small class="field-error" data-for="cfEmail"></small>
+              </div>
+
+              <div class="field select-field">
+                <i class="fa-solid fa-list-ul"></i>
+                <select id="cfCategory" name="category" aria-label="Category" required>
+                  <option value="" disabled selected hidden>Select Category *</option>
+                  <option>Stitching Order</option>
+                  <option>Course Enquiry</option>
+                  <option>Custom Design</option>
+                  <option>Aari Work Details</option>
+                  <option>Bulk Order</option>
+                  <option>Business Collaboration</option>
+                  <option>Other</option>
+                </select>
+                <i class="fa-solid fa-chevron-down chev"></i>
+                <small class="field-error" data-for="cfCategory"></small>
+              </div>
+
+              <div class="field full textarea-field">
+                <i class="fa-regular fa-comment-dots"></i>
+                <textarea id="cfMessage" name="message" rows="4" placeholder="Your Message *" aria-label="Your message" required></textarea>
+                <small class="field-error" data-for="cfMessage"></small>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary send-btn">Send Message <i class="fa-solid fa-arrow-right"></i></button>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite" hidden></p>
+          </form>
+        </div>
+
+        <aside class="ct-side reveal">
+          <div class="side-photo">
+            <img src="images/contact/stitching-woman.png" alt="Woman stitching an embroidered pink outfit" loading="lazy">
+          </div>
+
+          <div class="side-text">
+            <i class="fa-solid fa-quote-left side-quote"></i>
+            <p class="side-lead">Have a question<br>or a custom design<br>in mind?<br>We're here to help!</p>
+            <ul class="side-list">
+              <li><i class="fa-solid fa-circle-check"></i> Stitching Orders</li>
+              <li><i class="fa-solid fa-circle-check"></i> Course Enquiries</li>
+              <li><i class="fa-solid fa-circle-check"></i> Custom Designs</li>
+              <li><i class="fa-solid fa-circle-check"></i> Aari Work Details</li>
+              <li><i class="fa-solid fa-circle-check"></i> Bulk Orders</li>
+              <li><i class="fa-solid fa-circle-check"></i> Business Collaboration</li>
+            </ul>
+            <img class="side-sketch" src="images/services/dress-form-sketch.png" alt="" aria-hidden="true">
+          </div>
+        </aside>
+
+      </div>
+    </section>
+
+    <!-- ============ MAP + STUDIO ============ -->
+    <section class="ct-find">
+      <div class="container find-grid">
+
+        <div class="find-map reveal">
+          <h2>Find Us on <span>Map</span></h2>
+          <p class="find-sub">Visit our studio and academy at Rajapalayam.</p>
+          <div class="map-wrap">
+            <iframe
+              title="KM Creative Tailor & Academy location map"
+              src="https://www.google.com/maps?q=Rajapalayam%20Bus%20Stand&output=embed"
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Rajapalayam+Bus+Stand" target="_blank" rel="noopener">View Larger Map <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="studio-card reveal">
+          <div class="studio-photo">
+            <img src="images/contact/studio-front.png" alt="KM Creative Tailor & Academy shop front" loading="lazy">
+          </div>
+          <div class="studio-text">
+            <h3>Our Studio &amp; <span>Academy</span></h3>
+            <p><i class="fa-solid fa-location-dot"></i><span>123, Main Road,<br>Near Bus Stand,<br>Rajapalayam – 626 117</span></p>
+            <a href="https://www.google.com/maps/dir/?api=1&destination=Rajapalayam+Bus+Stand" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Get Directions <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+          
+        </div>
+
+      </div>
+    </section>
+
+
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <a href="index.html" class="footer-logo"><img src="images/logo.png" alt="KM Creative Tailor & Academy"></a>
+          <p>Transforming fabric into fashion and empowering women through skills.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://wa.me/919876543210" aria-label="WhatsApp" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="services.html#aari-work">Aari Work</a></li>
+            <li><a href="index.html#academy">Academy</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="services.html#blouse">Blouse Stitching</a></li>
+            <li><a href="services.html#chudithar">Chudithar Stitching</a></li>
+            <li><a href="services.html#aari-work">Aari Work</a></li>
+            <li><a href="services.html#pleating">Saree Pre-Pleating</a></li>
+            <li><a href="services.html#baby">Baby Dresses</a></li>
+            <li><a href="services.html#alteration">Alterations</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Academy Courses</h4>
+          <ul>
+            <li><a href="index.html#academy">Basic Tailoring</a></li>
+            <li><a href="index.html#academy">Advanced Tailoring</a></li>
+            <li><a href="index.html#academy">Aari Work</a></li>
+            <li><a href="index.html#academy">Saree Pre-Pleating</a></li>
+            <li><a href="index.html#academy">Fashion Designing</a></li>
+          </ul>
+        </div>
+
+        <p class="footer-art">Stitching<br>Confidence<br>in Every Woman</p>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="year">2026</span> KM Creative Tailor &amp; Academy. All Rights Reserved.</p>
+        <p><a href="#">Privacy Policy</a> &nbsp;|&nbsp; <a href="#">Terms &amp; Conditions</a></p>
+        <p class="footer-credit">Designed &amp; developed by <a href="https://your-beycan-website.com" target="_blank" rel="noopener"><strong>BEYCAN Technologies Pvt Ltd</strong></a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="contact.js"></script>
+</body>
+</html>
